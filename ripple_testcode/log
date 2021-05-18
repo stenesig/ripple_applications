@@ -1,0 +1,64 @@
+< PAY 50 XRP FROM rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie TO rQNRdh6wAZrDYGg3FfBmi6zYoY2FRD1aM1:1337
+<< connected >>
+Server base fee:  10
+# LEDGER CLOSED:  17012332
+>> Getting account info for:  rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie
+New estimated fee:  12
+<< [getAccountInfo] done, info:  { sequence: 17012230,
+  xrpBalance: '949.99999',
+  ownerCount: 0,
+  previousAffectingTransactionID: 'E799D0862F6974C6C0B7BAA797EE3A26FCDFF7E5251DF4BFCB5AD23DA3C9C0D9',
+  previousAffectingTransactionLedgerVersion: 17012322 }
+===> Transaction:  { TransactionType: 'Payment',
+  Account: 'rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie',
+  Fee: '10',
+  Destination: 'rQNRdh6wAZrDYGg3FfBmi6zYoY2FRD1aM1',
+  DestinationTag: 1337,
+  Amount: '50000000',
+  LastLedgerSequence: 17012337,
+  Sequence: 17012230 }
+===> Signed TX << ID >>:  B1E4292518B6069B06DE7D2E709E016A5337AACFE25DC84694B02869385118B5
+-------- SUBMITTING TRANSACTION --------
+{ resultCode: 'tesSUCCESS',
+  resultMessage: 'The transaction was applied. Only final in a validated ledger.',
+  engine_result: 'tesSUCCESS',
+  engine_result_code: 0,
+  engine_result_message: 'The transaction was applied. Only final in a validated ledger.',
+  tx_blob: '12000024010396062E00000539201B01039671614000000002FAF08068400000000000000A732102FCAAAD9206D1FCCAC9FC963ECB015F85F8C6EDA18A61677969453C3514B6B6BC74473045022100A89ABF5E7B53A4D4987D0119F7BDDDC5B18D5C5FADC0E4CA0FCF57F3840D1E1B02206CA666DCB2CC712B0993C978284577B5433CD2D36A7CB4E44A27DC27ED65D5BF81140F6FFC031F8B70C03A010074D1B6FE89D0AFF2FB8314FED4DA9039008A6B0AF2AE451673B911173AEABE',
+  tx_json: 
+   { Account: 'rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie',
+     Amount: '50000000',
+     Destination: 'rQNRdh6wAZrDYGg3FfBmi6zYoY2FRD1aM1',
+     DestinationTag: 1337,
+     Fee: '10',
+     LastLedgerSequence: 17012337,
+     Sequence: 17012230,
+     SigningPubKey: '02FCAAAD9206D1FCCAC9FC963ECB015F85F8C6EDA18A61677969453C3514B6B6BC',
+     TransactionType: 'Payment',
+     TxnSignature: '3045022100A89ABF5E7B53A4D4987D0119F7BDDDC5B18D5C5FADC0E4CA0FCF57F3840D1E1B02206CA666DCB2CC712B0993C978284577B5433CD2D36A7CB4E44A27DC27ED65D5BF',
+     hash: 'B1E4292518B6069B06DE7D2E709E016A5337AACFE25DC84694B02869385118B5' } }
+   >> [Tentative] Result:  tesSUCCESS
+   >> [Tentative] Message:  The transaction was applied. Only final in a validated ledger.
+# LEDGER CLOSED:  17012333
+# LEDGER CLOSED:  17012334
+    # < msg  transaction
+<< TX RESPONSE @ L:2] >>  { type: 'payment',
+  address: 'rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie',
+  sequence: 17012230,
+  id: 'B1E4292518B6069B06DE7D2E709E016A5337AACFE25DC84694B02869385118B5',
+  specification: 
+   { source: 
+      { address: 'rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie',
+        maxAmount: [Object] },
+     destination: { address: 'rQNRdh6wAZrDYGg3FfBmi6zYoY2FRD1aM1', tag: 1337 } },
+  outcome: 
+   { result: 'tesSUCCESS',
+     timestamp: '2021-04-27T22:56:21.000Z',
+     fee: '0.00001',
+     balanceChanges: 
+      { rpQdH6f4ZyQmxnFFn2GtuuKzoz5dDapCie: [Array],
+        rQNRdh6wAZrDYGg3FfBmi6zYoY2FRD1aM1: [Array] },
+     orderbookChanges: {},
+     ledgerVersion: 17012334,
+     indexInLedger: 0,
+     deliveredAmount: { currency: 'XRP', value: '50' } } }
